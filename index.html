@@ -1,0 +1,143 @@
+      <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>MonChatgpt</title>
+  
+  
+  <link rel="stylesheet" href="style.css">
+  
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<link rel="stylesheet"href="prismblack.css"/>
+
+
+</head>
+
+<body>
+  <script src="prismblack.js"></script>
+  
+ <section class="container">
+
+  <div class="btn">
+  <button id="open" onclick="op()">&#9776</button>
+  
+  <button> Nouveau chat</button>
+  <button onclick="plus()">+</button>
+  </div>
+  
+  <button id="clos"onclick="clos()">X</button>
+  
+    <nav id="side">
+     
+     
+       <div class="list">
+         
+       <button id="new"onclick="newch()">Nouveau chat</div>
+         
+       <div class="his" id="hi">
+         <p id="p1">L 'historique</p>
+         
+       </div>
+       </div>
+       
+       <div class="foot">
+       <p>made by Bathily</p>
+        <p>abathily20@gmail.com</p>
+       
+       </div>
+      
+      
+    </nav>
+  
+
+  <main id="mai">
+    <!-- Main content goes here -->
+    <h1>MonChatgpt</h1>
+    
+    
+    <div class="mainDiv">
+      
+      <h3>Exemples</h3>
+    <div id="one">Expliquer l'informatique quantique en termes simples" →</div>
+    <div id="two">comment faire une requête HTTP en JavaScript ? </div>
+    <div id="three">l'Ai est-elle entrain de remplacer les Humains ?</div>
+    
+    
+     <h3> Capacités</h3>
+    <div>
+      
+Se souvient de ce que l'utilisateur a dit plus tôt dans la conversation
+    </div>
+    
+    <div>
+Permet à l'utilisateur de fournir des corrections de suivi
+    </div>
+    
+    <div>
+ Formés à refuser les demandes inappropriées
+    </div>
+    
+      <h3>Limitations</h3>
+      
+      <div>
+Peut occasionnellement produire des informations incorrectes
+      </div>
+      
+    </div>
+    
+ 
+  <div class="out" id="histo">
+    
+    </div>
+    <div class="load">
+     <div class="wave"></div>
+     <div class="wave"></div>
+     <div class="wave"></div>
+     <div class="wave"></div>
+     
+    
+    </div>
+    
+   
+  </main>
+</div>
+  <footer>
+    <div class="chat">
+      
+    <textarea  cols="30" id="inp"
+    aria-multiline="true"
+    placeholder="poser une question"/>
+    
+    
+    </textarea>
+    
+<i id="img" class="material-icons"onclick="post()">&#xe163;</i>
+    </div>
+    
+    <p>
+    Free Research Preview.
+    ChatGPT may produce inaccurate information about people, places,
+     or facts. ChatGPT May 12 Version
+    </p>
+    
+    <p>&copy; 2023 My Website. All rights reserved.</p>
+  </footer>
+  
+  </section>
+  
+  <script src="main.js">
+  
+   Prims.highlightAll()
+    
+  </script>
+  
+</body>
+</html>
+
+ 
+

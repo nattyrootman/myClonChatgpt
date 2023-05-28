@@ -1,0 +1,530 @@
+
+
+@import url(https://fonts.googleapis.com/css?family=Questrial);
+@import url(https://fonts.googleapis.com/css?family=Arvo);
+
+
+
+
+
+
+body{
+  
+  background-color:#404060;
+   
+   overflow-x: hidden;
+  
+   width:300px;
+  
+  }
+  
+
+  
+  
+ @media screen and (min-width :400px)
+ {
+ 
+  body{
+    
+      align-items: center;
+     
+
+     justify-content: center;
+     align-content: center;
+     
+     width: 100%;
+     
+   
+  }
+ 
+    
+    
+    
+    textarea{
+     
+     width:80%;
+     padding: 4px 10px;
+     
+     margin-left: 50px;
+     
+    
+   }
+   
+   .chat {
+     
+    
+     margin-left: 25%;
+     
+     
+     width: 40%;
+     
+     display: grid;
+     padding-left: 0px;
+     padding-right: 0px;
+     grid-template-columns: auto auto ;
+     grid-gap: 0px;
+     align-items: center;
+     justify-content: center;
+    
+    
+   }
+   .material-icons{
+     
+     
+     
+     margin-left: 96%;
+   }
+   
+   
+   
+   
+  footer {
+   
+   align-items: center;
+  
+    display: flex;
+    flex-direction: column;
+    
+     width: 80%;
+   justify-content: center;
+  
+   
+   padding-left: 0px;
+   padding-right: 0px;
+   
+   }
+   
+   footer p{
+     text-align: center;
+     
+   }
+   
+   .mainDiv{
+     height: 50vh;
+   }
+   
+   .mainDiv div{
+     
+   
+      max-width: 600px;
+      
+     
+     justify-content: center;
+     align-content: center;
+     
+   }
+   
+   .mainDiv{
+     
+     justify-content: center;
+     
+     
+   }
+   
+   .out{
+     justify-content: center;
+     align-items: center;
+   }
+   .out pre{
+     
+     max-width: 600px;
+     align-items: center;
+     justify-content: center;
+     
+   }
+   
+ }
+  
+ 
+  
+  nav{
+  
+  color: white;
+   transition:0.3s;
+  background:#102;
+  display:flex;
+  
+   flex-direction:column;
+  width:0px;
+  height:100%;
+  position:fixed;
+  overflow-x:hidden;
+  top:0px;
+  
+  z-index:1;
+  left:0px;
+  border:1px solid black;
+  justify-content: space-between;
+  
+  }
+  
+ 
+  
+  
+  #new {
+  
+   outline:none;
+   border-style:none;
+   padding:15px 15px;
+   
+   margin-right:5px;
+   margin-left:5px;
+   width:90%;
+   border-radius:5px;
+   text-align:left;
+   align-items:center;
+   margin-top:20px;
+   border:1px solid black;
+   
+  
+  }
+  
+  
+  
+  #open{
+  
+  outline:none;
+  border-style:none;
+  
+  font-size:20px;
+  }
+  #clos{
+  color:white;
+  background:#102;
+  
+   margin:8px;
+   font-size:15px;
+    padding:10px 14px;
+    
+     display:none;
+    outline:none;
+    border-style:none;
+    border:1px solid #102;
+    border-radius: 50%;
+    
+  }
+   
+    
+   
+   
+  .btn button{
+  
+   padding:8px;
+   background: #404060;
+   color: white;
+  
+    
+  }
+  
+  .btn{
+    margin-left: 5px;
+    marker-start: 5px;
+   width:  300px;
+   padding: 0px 20px;
+    
+  
+   display:grid;
+  grid-template-columns: auto auto auto;
+    
+  border:1px solid #1004;
+ 
+   justify-content: space-between;
+  
+    
+  }
+   
+   .btn button:not(#open){
+   
+  outline:none;
+  border-style:none;
+  
+  padding:10px ,20px;
+  font-size:20px;
+  
+  }
+  
+  
+  
+  .his{
+    display:grid;
+    grid-template-rows: auto;
+     margin:10px;
+     margin-top: 0px;
+      
+      overflow: scroll;
+   
+   }
+   
+  .his p:hover:not(#p1){
+    
+    
+    background-color: #404050;
+  }
+   
+ 
+  .foot{
+  
+   marigin:15px;
+   background:#404050;
+   padding:20px;
+   
+ 
+  }
+  
+  .foot p{
+  
+   margin:15px;
+  }
+  
+   
+  
+
+  main{
+  
+     
+     height:60vh;
+    
+     overflow-x: hidden;
+     
+     padding:10px;
+     
+     width: 100%;
+     margin-left: 10px;
+     margin-right: 10px;
+     
+  }
+  
+  h1 {
+   text-align:center;
+   color: white;
+  }
+  
+  main>p {
+  
+  text-align:center;
+  font-size:18px;
+  }
+.mainDiv {
+    display: grid;
+    grid-gap: 10px;
+    padding: 6px;
+  }
+  
+ 
+  
+  
+  .mainDiv div{
+  
+     display:grid;
+   
+     grid-template-rows: auto;
+     background:#1002;
+     grid-gap:20px;
+     
+     color:white;
+     border-radius:5px;
+     padding:10px;
+     
+  
+  }
+  
+  .mainDiv h3{
+    
+    text-align: center;
+    
+    margin-bottom: 5px;
+    color: white;
+    
+  }
+
+  
+  
+  footer textarea{
+   padding:3px 8px;
+  
+   outline: none;
+  border-style: none;
+  
+  border-radius: 5px;
+  with:100%;
+  margin-right: 6px;
+  
+ 
+ 
+  }
+  
+  footer{
+  
+     padding:16px 8px;
+   
+     display:flex;
+     flex-direction: column;
+     color: white;
+    
+    overflow-x: hidden;
+  
+   width:100%;
+   margin-left: 10px;
+   align-items: center;
+   
+  }
+  footer p{
+  font-size:10px;
+  text-align: center;
+  
+  }
+  
+  .chat{
+  
+  display: grid;
+  grid-template-columns: auto auto;
+  
+  
+  background-color: white;
+  border-style: none;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  
+  
+  position: relative;
+  margin-left: 3px;
+  margin-right: 0px;
+  grid-gap: 5px;
+  padding: 4px 12px;
+  
+ 
+  
+  
+  }
+  .material-icons{
+  
+   
+   margin-left:86%;
+   color:#103;
+   padding:5px 10px;
+   position: absolute;
+   
+  
+   
+   
+  
+  }
+  
+  .out p{
+     
+     
+    background: #104;
+    font-size: 14px;
+     color: white;
+     margin: 15px;
+     padding: 20px;
+     
+     margin-bottom: 10px;
+     height: auto;
+     display: grid;
+     grid-template-rows:auto;
+
+     border-radius: 5px;
+     white-space: pre-wrap;
+     
+   
+  }
+  
+
+  
+  
+  
+  pre{
+    
+     overflow: auto;
+     background: #104;
+     
+     white-space: pre-wrap;
+     border-radius: 5px;
+  
+  }
+  
+ 
+  .out{
+   
+     grid-gap: 10px;
+     display: grid;
+    
+     border-radius: 5px;
+    
+  }
+  
+  
+  .load{
+    
+    visibility: hidden;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: auto auto auto auto;
+     
+  }
+  
+  .wave{
+    
+    font-size: 20px;
+   background: white;
+    height: 40px;
+    width: 2px;
+    
+    animation: wave 1s linear infinite;
+    
+  }
+  
+  .wave:nth-child(1){
+    
+    animation-delay: 0.6s;
+  }
+  
+.wave:nth-child(2){
+    
+    animation-delay: 0.6s;
+  }
+.wave:nth-child(4){
+    
+    animation-delay: 0.6s;
+  }
+  
+  
+.wave:nth-child(4){
+    
+    animation-delay: 0.6s;
+  }
+  
+  
+  
+  .load.display{
+    visibility: visible;
+  }
+  
+@keyframes wave {
+  
+  
+  0% {
+    
+    transform: scale(0)
+    
+}
+50%{
+  
+  transform: scale(1)
+}
+100%{
+  transform: scale(0)
+}
+  
+}
+  
+  
+ 
+  
+  
+ 
+  
